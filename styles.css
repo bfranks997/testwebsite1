@@ -38,17 +38,14 @@ h1{
 }
 
 .shroom {
-    width: 30%;
+    width: 15%;
+    padding: 0.5rem;
     border: 1px solid black;
-    padding: 1rem;
+    padding: 0.1rem;
     box-sizing: border-box;
 }
 
-.shroom h2 {
-    color: red;
-}
-
 .shroom img {
-    max-width: 100%;
+    max-width: 70%;
     height: auto;
 }
