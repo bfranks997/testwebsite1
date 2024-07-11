@@ -1,0 +1,54 @@
+/* .box{
+    width: 90%;
+    border: 3px solid blue;
+    margin: 1rem;
+    padding: 2rem 2rem;
+    text-align: center;
+}
+
+.shroom{
+    display: inline-block;
+    width: 10%;
+    border: 1px solid black;
+    padding: 1rem 1rem;
+    vertical-align: top;
+}
+
+.shroom h2{
+    color: red;
+}
+
+.shroom img{
+    max-width: 100%;
+} */
+
+h1{
+    text-align: center;
+}
+
+.box {
+    width: 90%;
+    border: 3px solid blue;
+    margin: 1rem auto;
+    padding: 2rem;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.shroom {
+    width: 30%;
+    border: 1px solid black;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.shroom h2 {
+    color: red;
+}
+
+.shroom img {
+    max-width: 100%;
+    height: auto;
+}
