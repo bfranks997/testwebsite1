@@ -39,10 +39,16 @@ h1{
 
 .shroom {
     width: 15%;
+    height: 90%;
     padding: 0.5rem;
     border: 1px solid black;
     padding: 0.1rem;
     box-sizing: border-box;
+}
+
+.shroom:hover {
+    transform: scale(1.15);
+    background-color: lightgray;
 }
 
 .shroom img {
