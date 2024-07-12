@@ -1,35 +1,47 @@
-/* .box{
-    width: 90%;
-    border: 3px solid blue;
-    margin: 1rem;
-    padding: 2rem 2rem;
-    text-align: center;
+header{
+    background-image: url("https://www.erinnudi.com/wp-content/uploads/2014/12/shiitake-7002_1920.jpg");
+    padding: 2rem;
+    color: white;
+    text-shadow: 2px 2px 0px #000000;
 }
 
-.shroom{
-    display: inline-block;
-    width: 10%;
-    border: 1px solid black;
-    padding: 1rem 1rem;
-    vertical-align: top;
-}
-
-.shroom h2{
-    color: red;
-}
-
-.shroom img{
+nav{
     max-width: 100%;
-} */
+    padding: 0.4rem;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+
+nav a{
+    text-decoration:none;
+    color: black;
+    border-radius: 1rem;
+    width: 100%;
+    border: 1px solid black;
+    margin: 0rem 1rem 0rem;
+    padding: 1rem;
+    background-color: white;
+    text-shadow: none;
+
+}
+
+nav a:hover{
+    transform: scale(1.05);
+    background-color: rgb(235, 234, 234);
+}
 
 h1{
     text-align: center;
 }
 
+h2{
+    text-align: center;
+}
+
 .box {
-    width: 90%;
-    border: 3px solid blue;
-    margin: 1rem auto;
+    max-width: 100%;
     padding: 2rem;
     text-align: center;
     display: flex;
@@ -38,8 +50,9 @@ h1{
 }
 
 .shroom {
-    width: 15%;
-    height: 90%;
+    border-radius: 1.5rem;
+    margin: 1rem auto 1rem auto;
+    max-width: 15%;
     padding: 0.5rem;
     border: 1px solid black;
     padding: 0.1rem;
@@ -47,11 +60,21 @@ h1{
 }
 
 .shroom:hover {
-    transform: scale(1.15);
-    background-color: lightgray;
+    transform: scale(1.05);
+    background-color: rgb(235, 234, 234);
+}
+
+.blur {
+
+    filter: blur(5px);
+
 }
 
 .shroom img {
-    max-width: 70%;
+    /* max-width: 70%; */
     height: auto;
+    width: 60%; 
+    height: 60%; 
+    object-fit: cover;
+    object-position: 25% 25%; 
 }
